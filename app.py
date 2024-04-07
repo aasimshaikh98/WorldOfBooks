@@ -13,8 +13,8 @@ st.title("-- Book Recommender System 📔 --")
 st.markdown("Hey there! 📚 Excited about finding your next great read? BookHub is your personalized book buddy, crafting recommendations just for you based on what you love. We use nifty collaborative filtering tricks to offer up a handpicked selection of book titles that'll make your reading journey even more delightful! Plus, we've got a special treat for engineering enthusiasts with our unique section dedicated to recommending top-notch engineering books. Ready to dive in and discover your next favorite?")
 st.subheader("Enter your Name")
 user_name = st.text_input("")
-Item_based = pd.read_csv('https://github.com/aasimshaikh98/WorldOfBooks/blob/master/item_based.csv')
-Item_based1 = pd.read_csv('https://github.com/aasimshaikh98/WorldOfBooks/blob/master/item_based1.csv')
+Item_based = pd.read_csv('https://github.com/aasimshaikh98/WorldOfBooks/blob/master/item_based.csv?raw=true')
+Item_based1 = pd.read_csv('https://github.com/aasimshaikh98/WorldOfBooks/blob/master/item_based1.csv?raw=true')
 if user_name:
  ## Define the options
  options = ['Overall Library', 'Exclusive MU Engineering Library']
